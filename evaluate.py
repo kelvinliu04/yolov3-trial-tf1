@@ -62,7 +62,7 @@ class YoloTest(object):
             [self.pred_sbbox, self.pred_mbbox, self.pred_lbbox],
             feed_dict={
                 self.input_data: image_data,
-                self.trainable: False
+                self.trainable: True
             }
         )
 
