@@ -40,11 +40,11 @@ __C.TRAIN.ANNOT_PATH            = "./data/dataset/train.txt"
 __C.TRAIN.BATCH_SIZE            = 3
 __C.TRAIN.INPUT_SIZE            = [320, 352, 384, 416, 448, 480, 512, 544, 576, 608]
 __C.TRAIN.DATA_AUG              = True
-__C.TRAIN.LEARN_RATE_INIT       = 1e-4
+__C.TRAIN.LEARN_RATE_INIT       = 5e-4
 __C.TRAIN.LEARN_RATE_END        = 1e-6
 __C.TRAIN.WARMUP_EPOCHS         = 2
-__C.TRAIN.FISRT_STAGE_EPOCHS    = 20
-__C.TRAIN.SECOND_STAGE_EPOCHS   = 50
+__C.TRAIN.FISRT_STAGE_EPOCHS    = 30
+__C.TRAIN.SECOND_STAGE_EPOCHS   = 70
 __C.TRAIN.INITIAL_WEIGHT        = "./checkpoint/yolov3_coco_demo.ckpt"
 
 
